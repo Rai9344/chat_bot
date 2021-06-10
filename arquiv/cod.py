@@ -8,7 +8,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://web.whatsapp.com/')
 time.sleep(30)
 #definir contatos e grupos e mensagens a ser enviadas
-contatos = ['Python']
+contatos = ['nome do contato', 'nome do grupo ']
 mensagem = 'Ola pessoal, essa mensagem foi enviada automaticamente, ela foi criada em python, caso você tenha recebida o codigo rodou.'
 #search groups
 def buscar_contato(contato):
